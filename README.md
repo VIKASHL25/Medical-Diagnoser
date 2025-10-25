@@ -35,3 +35,6 @@ Medical Diagnoser/
 ├── requirements.txt       # Python dependencies
 ├── .gitignore
 └── README.md
+
+![Input](images/input.png)
+![Output](images/output.png)
