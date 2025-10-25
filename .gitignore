@@ -1,0 +1,49 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+.vscode/
+.idea/
+*.swp
+
+# Environment variables / secrets
+.env
+*.env
+
+# Model files (large or binary)
+*.h5
+*.pkl
+*.joblib
+*.ckpt
+
+# Temporary or build directories
+build/
+dist/
+*.egg-info/
+.eggs/
+tmp/
+temp/
+
+# FastAPI specific
+*.pid
+
+# PyTest 
+htmlcov/
+.coverage
+.pytest_cache/
+.cache/
+
+.vscode/
+

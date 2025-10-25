@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'/>
+  <meta name='viewport' content='width=device-width, initial-scale=1' />
+  <title>Prediction Result</title>
+  <link rel='stylesheet' href='/static/style.css'>
+</head>
+<body>
+  <div class='page'>
+    <header class='top'>
+      <h1>Medical Diagnoser</h1>
+      <p class='tag'>AI-powered quick prediction </p>
+    </header>
+    <main class='card'>
+      <h2>Result</h2>
+      <p><strong>Input:</strong> {{ input }}</p>
+      <p><strong>Disease:</strong> {{ result['disease'] }}</p>
+      <p><strong>Prescription:</strong> {{ result['prescription'] }}</p>
+      <p><strong>Confidence:</strong> {{ result['confidence']*100 }}%</p>
+      <a href='/' class='btn'>Try another</a>
+    </main>
+    <footer class='foot'>Built with — FastAPI & Keras</footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'/>
+  <meta name='viewport' content='width=device-width, initial-scale=1' />
+  <title>Medical Diagnoser</title>
+  <link rel='stylesheet' href='/static/style.css'>
+</head>
+<body>
+  <div class='page'>
+    <header class='top'>
+      <h1>Medical Diagnoser</h1>
+      <p class='tag'>AI-powered quick prediction </p>
+    </header>
+    <main class='card'>
+      <h2>Describe the patient's problem</h2>
+      <form method='post' action='/predict'>
+        <textarea name='patient_problem' placeholder='e.g. I have lower back pain and stiffness in the morning...' required></textarea>
+        <button type='submit' class='btn'>Predict</button>
+      </form>
+    </main>
+    <footer class='foot'>Built with — FastAPI & Keras</footer>
+  </div>
+</body>
+</html>
