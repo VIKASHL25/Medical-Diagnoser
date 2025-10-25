@@ -1,5 +1,9 @@
 #  Medical Diagnoser – AI-Powered Disease Prediction System
 ---
+## Input & Output Samples
+
+![Input](images/input.png)
+![Output](images/output.png)
 
 ## Overview
 
@@ -36,5 +40,4 @@ Medical Diagnoser/
 ├── .gitignore
 └── README.md
 
-![Input](images/input.png)
-![Output](images/output.png)
+
